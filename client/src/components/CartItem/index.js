@@ -18,7 +18,6 @@ const CartItem = ({ item }) => {
 
     const onChange = (e) => {
         const value = e.target.value;
-        
         if (value === '0') {
           dispatch({
             type: REMOVE_FROM_CART,
